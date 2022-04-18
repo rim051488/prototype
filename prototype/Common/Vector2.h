@@ -30,6 +30,8 @@ public:
 	Vector2Template operator-()const;
 
 	//2€‰‰Zq
+	//Vector2Template operator+(const Vector2Template& va, const Vector2Template vb);
+	//Vector2Template operator-(const Vector2Template& va, const Vector2Template vb);
 	Vector2Template operator+(Vector2Template vec);
 	Vector2Template operator-(Vector2Template vec);
 	Vector2Template operator*(Vector2Template vec);

@@ -161,6 +161,32 @@ Vector2Template<T> Vector2Template<T>::operator-() const
 	//return -(*this);
 }
 
+//template<class T>
+//Vector2Template<T> Vector2Template<T>::operator+(const Vector2Template<T>& va, const Vector2Template<T> vb)
+//{
+//	auto ret = { va.x + vb.x ,va.y + vb.y };
+//	return ret;
+//}
+//
+//template<class T>
+//Vector2Template<T> Vector2Template<T>::operator-(const Vector2Template<T>& va, const Vector2Template<T> vb)
+//{
+//	auto ret = { va.x - vb.x ,va.y - vb.y };
+//	return ret;
+//}
+
+//template<class T>
+//Vector2Template<T> Vector2Template<T>::operator+(const Vector2Template& va, const Vector2Template vb)
+//{
+//	return Vector2Template();
+//}
+//
+//template<class T>
+//Vector2Template<T> Vector2Template<T>::operator-(const Vector2Template& va, const Vector2Template vb)
+//{
+//	return Vector2Template();
+//}
+//
 template <class T>
 Vector2Template<T> Vector2Template<T>::operator+(Vector2Template<T> vec)
 {
